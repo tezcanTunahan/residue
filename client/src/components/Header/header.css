@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    width: 100vw;
+    height: 8vh;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.logo:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: 900;
+    transition: all 1s 0.1s ;
+}
+.login{
+    color:  white;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.login:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: 900;
+    transition: all 1s 0.1s ;
+}
+.profiele{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+}
+.userName{
+    color:  white;
+    font-size: 17px;
+    cursor: context-menu;
+}
+.logout-btn{
+    color: white;
+    background-color: grey;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    transition: all 1s 0.1s ;
+}

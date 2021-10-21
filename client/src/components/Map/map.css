@@ -1,0 +1,27 @@
+
+.map{
+    height: 92vh;
+    width: 50vw;
+}
+.mapItem-container{
+    width: 100px;
+    height: 80px;
+} 
+.map-img{
+    width: 100px;
+    height: 50px; 
+}
+.color-currentPlace{
+    color: rgb(132, 132, 132);
+    font-size: 30px;
+}
+.color-selectedPlace{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+@media (max-width: 900px) { 
+    .map{
+        height: 92vh;
+        width: 70vw;
+    }
+}

@@ -1,0 +1,13 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(236, 236, 236);
+
+}
+.list-h1{
+    margin: 50px;
+    letter-spacing: 20px;
+}
+    

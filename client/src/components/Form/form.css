@@ -1,0 +1,43 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 92vh;
+    width: 50vw;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+.unlock-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.unlock-img{
+    width: 200px;
+    height: 200px;
+}
+.submit-btn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) { 
+    .form-container{
+        height: 100vh;
+        width: 100vw;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 60vw;
+        justify-content: space-evenly;
+    }
+}

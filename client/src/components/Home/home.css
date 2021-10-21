@@ -1,0 +1,12 @@
+.form-map{
+    display: flex; 
+    flex-direction: row;
+}
+@media (max-width: 900px) { 
+    .form-map{
+    display: flex; 
+    flex-direction: column;
+}   
+}
+
+
